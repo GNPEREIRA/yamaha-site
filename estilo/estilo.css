@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', Times, serif;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url();
+}
+
+header .container{
+    border: solid 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 83.5px;
+}
+
+header nav a{
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 13.5px;
+    
+}
+
+.foto-principal{
+    background: linear-gradient(rgba(0,0,0, 0.50), rgba(0,0,0, 0.50)100%), url('/img/r3-abs-banners-desktop.jpg');
+    height: 550px;
+    
+}
+
+.container-modelos{
+    background: linear-gradient(rgba(45, 32, 114, 0.699), rgba(0,0,0,0.5)100%);
+    padding-top: 30px;
+}
+
+
+.modelos img{
+    height: 250px;
+    width: 250px;
+}
+
+.descricao{
+    padding-top: 20px;
+    width: 370px;
+}
+
+.titulo h3{
+    margin-left: 50px;
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+
+
+.anuncio p{
+    margin-left: 50px;
+    margin-right: 60px;
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: 900;
+}
+
