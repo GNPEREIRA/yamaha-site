@@ -5,11 +5,6 @@
     font-family: 'Oswald', Times, serif;
 }
 
-@font-face {
-    font-family: 'Oswald';
-    src: url();
-}
-
 header .container{
     border: solid 1px;
     display: flex;
@@ -36,6 +31,9 @@ header nav a{
     padding-top: 30px;
 }
 
+.box-moto{
+    height: 590px; 
+}
 
 .modelos img{
     height: 250px;
@@ -62,5 +60,83 @@ header nav a{
     color: whitesmoke;
     font-size: 35px;
     font-weight: 900;
+}
+
+.container-botao{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    border-radius: 30%;
+    color: white;
+
+    padding: 15px 30px;
+    font-size: 16px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.button i{
+    margin-right: 8px;
+}
+
+.escolha-categoria{
+    background-color: rgb(101, 185, 212);
+    height: 80px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.categorias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80px;
+    width: 400px;
+}
+
+.categorias p{
+    font-size: 20px;
+    color:white;
+    margin-right: 15px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 20px;
+}
+
+.banner img{
+    height: 547.2px;
+    width: 547.2px;
+}
+
+.fonte{
+    background: linear-gradient(to bottom, cyan, red, rgb(255, 192, 218));
+    margin-top: 20px;
+}
+
+.videos{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.container-botao-video{
+    margin-left: 425px;
+    margin-top: 30px;
 }
 
